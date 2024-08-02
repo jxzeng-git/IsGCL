@@ -17,7 +17,7 @@ torch-spline-conv         1.2.0
 
 ## Training & Evaluation
 
-### For PisGCL
+### For IsGCL
 ```
 python main.py --DS $DATASET_NAME --aug $AUGMENTATION --beta 0.5 --pacing_type logar --pos_div_threshold 0.01 --neg_div_threshold 0.2 --num_prot 10
 ```
